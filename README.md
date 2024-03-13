@@ -2,25 +2,29 @@
 
 > Ivan Kostin (@limarkdl)
 
-# Start
-### Linux:
+## Start 🚀
+### 🛠️ Linux: 
 1. Start Docker 
 2. Make sure that you are running commands from the ```/task2/``` folder
 3. Run ```sudo /bin/bash ./linux_build_and_run.sh```
 > Using ```sudo``` because of the Docker permissions
 
 
-### Windows: 
+### 🛠️ Windows: 
 1. Start Docker
 2. Make sure that you are running commands from the ```/task2/``` folder
 3. Run script ```windows_build_and_run.bat```
 
-# Using application
+## About ✍️
+
+This application receives a 2D array of symbols and then translate it to a beautiful map in .png
+
+## Using application 🖥️
 
 After it's started, you can see a CLI interface. Follow the instructions and when you are supposed to enter
 the data, do it line by line. After you are done, the program will generate a file called ```output.png``` in the ```/task2/``` folder and show it.
 
-# Features
+## Features 🌟
 1. Sticky sidewalks - all sidewalks are following the road and are not separated from it, as close as possible
 2. Parking borders - all parking slots have an automatic border to show the parking area
 3. Automatic road curves detection - the program detects the road curves and draws it accordingly
@@ -30,7 +34,7 @@ the data, do it line by line. After you are done, the program will generate a fi
 7. Parking connection to the road - the program connects the parking slots to the road (at least it's doing its best)
 8. Filling disproportionate maps - the program fills the map with grass if it's not filled
 
-# Examples of usage
+## Examples of usage 👁️
 
 1. City map
     
